@@ -1,22 +1,7 @@
-// const buttonElement = document.getElementById("btn");
-
-// function addCSS () {
-//     const textAreaElement = document.querySelector('textarea')
-//     const css = textAreaElement.value;
-//     const foreFront = document.querySelector('#forefront')
-//     foreFront.style.cssText=css;
-//     }
-
-
-// buttonElement.addEventListener('click', addCSS)
-
-
-
-
-
-// buttonElement.addEventListener('click', addCSS);
 const buttonElement = document.getElementById("btn");
 const textAreaElement = document.querySelector('textarea');
+
+document.getElementById("auth_letter").innerHTML = localStorage.getItem("firstLetter").toUpperCase();
 
 function addCSS() {
     const css = textAreaElement.value;
