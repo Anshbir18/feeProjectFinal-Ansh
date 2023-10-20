@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Froggy</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/ansh.jpeg" sizes="96x96">
+    <link rel="stylesheet" href="./style4.css">
+</head>
+<body>
+    <div class="app">
+        <section id="instruction">
+            <h1>Flexbox Flexbox</h1>
+            <!-- <p>
+                help this army of frogs form three orderly columns using
+                a combination of <span class="help">flex-direction</span> and <span class="help">flex-wrap</span>.
+            </p> -->
+            <p>Bring the frogs home one last time by using the CSS properties you've learned:</p>
+<ul>
+    <li><span class="help">justify-content</span></li>
+    <li><span class="help">align-items</span></li>
+    <li><span class="help">flex-direction</span></li>
+    <li><span class="help">order</span></li>
+    <li><span class="help">align-self</span></li>
+    <li><span class="help">flex-wrap</span></li>
+    <li><span class="help">flex-flow</span></li>
+    <li><span class="help">align-content</span></li>
+</ul>
+
+            <div class="editor">
+                <div class="line-number">
+                    1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10
+                </div>
+
+                <pre>#pond {
+    display: flex;
+                </pre>
+                <textarea placeholder="Enter code"></textarea>
+                <pre>}</pre>
+                <!-- <button id="btn">Next</button> -->
+                <button id="btn">Check</button>
+                <button id="btn" style="margin-right: 80px; cursor: pointer;"><a href="./index3.html" style="text-decoration: none; color: inherit;">Back</a></button>
+            </div>
+            <div class="auth_letter_div" id="popupContainer">
+                <p id="auth_letter" class="auth_letter">A</p>
+                <div id="popupMenu" class="popup-menu">
+                    <a href="../auth/index.html" style="text-decoration: none; font-size: large; font-family: cursive;">Logout</a>
+                </div>
+            </div>
+        </section>
+        <section id="pond">
+            <div id="forefront">
+                <div class="frogContainer">
+                    <div class="frog red"></div>
+                </div>
+                <!-- green frog -->
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+
+                <!-- yellow frog -->
+                
+                <div class="frogContainer">
+                    <div class="frog yellow"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog yellow"></div>
+                </div>
+
+            </div>
+            <div id="background">
+                <!-- green -->
+                <div class="lilly-container">
+                    <div class="lilly green one"></div>
+
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly green two" style="transform: scale(0.88) rotate(322deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly green three" style="transform: scale(0.95) rotate(10deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly green four" style="transform: scale(0.82) rotate(34deg)"></div>
+                    
+                </div>
+                <!-- red -->
+                <div class="lilly-container">
+                    <div class="lilly red five" style="transform: scale(0.94) rotate(90deg)"></div>
+                    
+                </div>
+                <!-- yellow -->
+                <div class="lilly-container">
+                    <div class="lilly yellow six" style="transform: scale(0.83) rotate(146deg)"></div>
+                    
+                </div>
+                <div class="lilly-container seven">
+                    <div class="lilly yellow" style="transform: scale(0.92) rotate(269deg)"></div>
+                    
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+
+    <script src="../app.js"></script>
+    <script src="../auth/app.js"></script>
+</body>
+</html>

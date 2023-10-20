@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Froggy</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/ansh.jpeg" sizes="96x96">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="app">
+        <section id="instruction">
+            <h1>Flexbox Flexbox</h1>
+            <!-- <p>
+                help this army of frogs form three orderly columns using
+                a combination of <span class="help">flex-direction</span> and <span class="help">flex-wrap</span>.
+            </p> -->
+            <p>
+                The two properties<span class="help">flex-direction</span> and <span class="help">flex-wrap</span> are used so often together that the shorthand property <span class="help">flex-flow</span> was created to combine them. This shorthand property accepts the value of the two properties separated by a space.<br><br>
+
+                For example, you can use <span class="help">flex-flow: row wrap</span> to set rows and wrap them.<br><br>
+                
+                Try using flex-flow to complete this level.
+            </p>
+
+            <div class="editor">
+                <div class="line-number">
+                    1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10
+                </div>
+
+                <pre>#pond {
+    display: flex;
+                </pre>
+                <textarea placeholder="Enter code"></textarea>
+                <pre>}</pre>
+                <!-- <button id="btn">Next</button> -->
+                <button id="btn" style="cursor: pointer;">Check</button>
+                <button id="btn" style="margin-right: 80px; cursor: pointer;"><a href="./index3.html" style="text-decoration: none; color: inherit;">Next</a></button>
+                <button id="btn" style="margin-right: 150px; cursor: pointer;"><a href="../index.html" style="text-decoration: none; color: inherit;">Back</a></button>
+            </div>
+
+            <div class="auth_letter_div" id="popupContainer">
+                <p id="auth_letter" class="auth_letter">A</p>
+                <div id="popupMenu" class="popup-menu">
+                    <a href="../auth/index.html" style="text-decoration: none; font-size: large; font-family: cursive;">Logout</a>
+                </div>
+            </div>
+        </section>
+        <section id="pond">
+            <div id="forefront">
+                <!-- green frog -->
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog green"></div>
+                </div>
+
+                <!-- red frog -->
+
+                <div class="frogContainer">
+                    <div class="frog red"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog red"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog red"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog red"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog red"></div>
+                </div>
+
+                <!-- yellow frog -->
+                
+                <div class="frogContainer">
+                    <div class="frog yellow"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog yellow"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog yellow"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog yellow"></div>
+                </div>
+                <div class="frogContainer">
+                    <div class="frog yellow"></div>
+                </div>
+
+            </div>
+            <div id="background">
+                <!-- green -->
+                <div class="lilly-container">
+                    <div class="lilly green"></div>
+
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly green" style="transform: scale(0.88) rotate(322deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly green" style="transform: scale(0.95) rotate(10deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly green" style="transform: scale(0.82) rotate(34deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly green" style="transform: scale(0.89) rotate(67deg)"></div>
+                    
+                </div>
+                <!-- red -->
+                <div class="lilly-container">
+                    <div class="lilly red" style="transform: scale(0.94) rotate(90deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly red" style="transform: scale(0.82) rotate(221deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly red" style="transform: scale(0.87) rotate(122deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly red" style="transform: scale(0.90) rotate(190deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly red" style="transform: scale(0.85) rotate(70deg)"></div>
+                    
+                </div>
+                <!-- yellow -->
+                <div class="lilly-container">
+                    <div class="lilly yellow" style="transform: scale(0.83) rotate(146deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly yellow" style="transform: scale(0.92) rotate(269deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly yellow" style="transform: scale(0.86) rotate(26deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly yellow" style="transform: scale(0.83) rotate(98deg)"></div>
+                    
+                </div>
+                <div class="lilly-container">
+                    <div class="lilly yellow" style="transform: scale(0.92) rotate(322deg)"></div>
+                    
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+
+
+    <script src="../app.js"></script>
+    <script src="./auth/app.js"></script>
+</body>
+</html>

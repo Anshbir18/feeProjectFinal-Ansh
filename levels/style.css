@@ -28,7 +28,7 @@ p{
 
 #instruction{
     padding: 30px;
-    width: 50vw;
+    width: 50%;
 }
 
 #pond{
@@ -140,25 +140,114 @@ textarea {
 }
 
 .lilly.green{
-    background-image: url(./assets/images/lilypad-green.svg);
+    background-image: url(../assets/images/lilypad-green.svg);
 }
+
+.one{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+}
+
+.two{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 2%;
+    left: 43%;
+}
+
+.three{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 2%;
+    left: 65%;
+}
+
+.four{
+    width: 21%;
+    height: 21%;
+    position: absolute;
+    top: 23%;
+    left: 21%;
+}
+.five{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 22%;
+    left: 43%;
+}
+.six{
+    width: 21%;
+    height: 21%;
+    position: absolute;
+    top: 23%;
+    left: 65%;
+}
+.seven{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 42%;
+    left: 19%;
+}
+.eight{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 43%;
+    left: 43%;
+}
+.nine{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 43%;
+    left: 65%;
+}
+.ten{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 64%;
+    left: 20%;
+}
+.eleven{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 64%;
+    left: 43%;
+}
+.tweleve{
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 64%;
+    left: 65%;
+}
+
 .lilly.red{
-    background-image: url(./assets/images/lilypad-red.svg);
+    background-image: url(../assets/images/lilypad-red.svg);
 }
 .lilly.yellow{
-    background-image: url(./assets/images/lilypad-yellow.svg);
+    background-image: url(../assets/images/lilypad-yellow.svg);
 }
 
 
 .frog.green{
-    background-image: url(./assets/images/frog-green.svg);
+    background-image: url(../assets/images/frog-green.svg);
 }
 
 .frog.red{
-    background-image: url(./assets/images/frog-red.svg);
+    background-image: url(../assets/images/frog-red.svg);
 }
 .frog.yellow{
-    background-image: url(./assets/images/frog-yellow.svg);
+    background-image: url(../assets/images/frog-yellow.svg);
 }
 
 .auth_letter_div{
@@ -177,6 +266,11 @@ textarea {
     font-size: 1.7rem;
     margin-top: 15px;
 }
+
+
+
+
+
 
 
 
@@ -224,7 +318,7 @@ textarea {
     }
 
     #instruction {
-        width: 1250px; /* Take full width on small screens */
+        width: 100%; /* Take full width on small screens */
     }
 
     #pond {
@@ -232,12 +326,12 @@ textarea {
     }
 
     .editor {
-        width: 50%; /* Take full width on small screens */
+        width: 100%; /* Take full width on small screens */
     }
 
     .lilly-container,
     .frogContainer {
-        width: 20%; /* Two elements per row on small screens */
+        width: 50%; /* Two elements per row on small screens */
     }
 
     /* Adjust font sizes or other styles for small screens */
@@ -245,10 +339,6 @@ textarea {
         font-size: 24px;
     }
 }
-
-
-
-
 
 
 
@@ -261,7 +351,7 @@ textarea {
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(182, 49, 49, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .auth_letter_div:hover #popupMenu {
